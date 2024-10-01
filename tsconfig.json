@@ -1,0 +1,6 @@
+{
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "moduleResolution": "Node10"
+  }
+}

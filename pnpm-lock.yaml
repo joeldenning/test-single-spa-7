@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      single-spa:
+        specifier: 7.0.0-beta.0
+        version: 7.0.0-beta.0
+      typescript:
+        specifier: ^5.6.2
+        version: 5.6.2
+
+packages:
+
+  single-spa@7.0.0-beta.0:
+    resolution: {integrity: sha512-H9qYHuupJhpieagldkPEy8/CLOgAhk6OP1ue7NXXp3Ooh3/RAkDdz/j7z7e7OGE164C3rZ6LjQ7f93fUnTEDyg==}
+
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  single-spa@7.0.0-beta.0: {}
+
+  typescript@5.6.2: {}
